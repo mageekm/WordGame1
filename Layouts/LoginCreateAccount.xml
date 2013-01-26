@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
     <name>LoginCreateAccount</name>
-    <event-sheet>GameEvents</event-sheet>
+    <event-sheet>LoginEvents</event-sheet>
     <size>
         <width>1280</width>
         <height>1024</height>
@@ -316,7 +316,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BackToMenu">
+                <instance type="GotoMenuText">
                     <properties>
                         <text>Nevermind</text>
                         <initial-visibility>Visible</initial-visibility>

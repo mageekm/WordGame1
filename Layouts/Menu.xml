@@ -105,7 +105,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LoginText">
+                <instance type="GotoLoginText">
                     <properties>
                         <text>Login or Create Account</text>
                         <initial-visibility>Visible</initial-visibility>
