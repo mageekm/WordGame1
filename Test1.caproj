@@ -7,6 +7,7 @@
     <unique-id>3k8y8jenijj4j</unique-id>
     <saved-with-version>11400</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="CJSAds" version="1">CocoonJS</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
@@ -116,11 +117,8 @@
         <object-type name="GotoLoginText">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Passwordbox">
+        <object-type name="EmailLoginBox">
             <plugin id="TextBox" />
-        </object-type>
-        <object-type name="DoCreateText">
-            <plugin id="Text" />
         </object-type>
         <object-type name="NeedText">
             <plugin id="Text" />
@@ -130,6 +128,21 @@
         </object-type>
         <object-type name="GotoMenuText">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="PasswordLoginBox">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="DoLoginText">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="DoCreateAccountText">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text1">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="AjaxHelper">
+            <plugin id="AJAX" />
         </object-type>
     </object-folder>
     <families />
@@ -159,6 +172,7 @@
             </properties>
         </global-instance>
         <global-instance type="CocoonJSAds" />
+        <global-instance type="AjaxHelper" />
     </global-instances>
     <sounds-folder expanded="1" />
     <music-folder expanded="1" />

@@ -18,16 +18,6 @@
         <event-block>
             <conditions>
                 <condition id="4" name="Is touching object" type="Touch">
-                    <param id="0" name="Object">QuitButton</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="1" name="Close" type="Browser" />
-            </actions>
-        </event-block>
-        <event-block>
-            <conditions>
-                <condition id="4" name="Is touching object" type="Touch">
                     <param id="0" name="Object">HelpButton</param>
                 </condition>
             </conditions>

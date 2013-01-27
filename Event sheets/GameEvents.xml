@@ -2,12 +2,5 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>GameEvents</name>
-    <events>
-        <event-block>
-            <conditions>
-                <condition id="-2" name="On start of layout" type="System" />
-            </conditions>
-            <actions />
-        </event-block>
-    </events>
+    <events />
 </c2eventsheet>
