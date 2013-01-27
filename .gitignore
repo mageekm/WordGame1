@@ -8,4 +8,4 @@ nbactions.xml
 nb-configuration.xml
 *.backup*
 Thumbs.db
-*.caproj
+*.capx
