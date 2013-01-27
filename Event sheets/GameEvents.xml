@@ -574,16 +574,19 @@
                             <param id="0" name="Group name">&quot;MoveCrow&quot;</param>
                             <param id="1" name="State">0</param>
                         </action>
-                        <action id="-15" name="Set visible" type="DefinitionText">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                        <action id="-15" name="Set visible" type="Caption">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
                         <action id="-15" name="Set visible" type="WordsImg">
                             <param id="0" name="Visibility">0</param>
                         </action>
                         <action id="-15" name="Set visible" type="WordsTxt">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Set text" type="DefinitionText">
+                            <param id="0" name="Text">&quot;You Did it!  Your time is: &quot; &amp; currentTime</param>
+                        </action>
+                        <action id="-15" name="Set visible" type="Sprite10">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" type="Score">
                             <param id="0" name="Visibility">0</param>
                         </action>
                     </actions>
