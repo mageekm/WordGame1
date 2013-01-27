@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Test1</name>
+    <description></description>
+    <version>1.0</version>
+    <author></author>
+    <unique-id>3k8y8jenijj4j</unique-id>
+    <saved-with-version>11600</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="CJSAds" version="1">CocoonJS</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
+        <plugin author="Scirra" id="XML" version="1">XML</plugin>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>640</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>1</pixel-rounding>
+    <first-layout>LoadScreen</first-layout>
+    <use-loader-layout>1</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">No</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Hide address bar">Yes</prop>
+        <prop name="Loader style">Percentage text</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use iOS retina display">Yes</prop>
+    </configuration-settings>
+    <object-folder expanded="1">
+        <object-type name="WebStorage">
+            <plugin id="WebStorage" />
+        </object-type>
+        <object-type name="Touch">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Browser">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="Audio">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="CocoonJSAds">
+            <plugin id="CJSAds" />
+        </object-type>
+        <object-type name="StartBackground">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="GameBackground">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="DefinitionText">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="HelpText">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="StartImage">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.120944" hotspotY="-0.932203">
+                        <collision-poly>
+                            <point x="0.365782" y="0.0169492" />
+                            <point x="0.120944" y="0.0169492" />
+                            <point x="0.879056" y="0.983051" />
+                            <point x="0.120944" y="0.983051" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="QuitButton">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501199" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HelpButton">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.501312" hotspotY="0.501326" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HelpMainText">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="LoginText">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Passwordbox">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="DoCreateText">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="NeedText">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="EnterGenderBox">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="BackToMenu">
+            <plugin id="Text" />
+        </object-type>
+        <object-type global="1" name="XML">
+            <plugin id="XML" />
+        </object-type>
+        <object-type name="Word1">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="Word1" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Fade">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Word2">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="Word2" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Fade">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Word3">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="Word3" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Fade">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Word4">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="Word3" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Fade">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type global="1" name="Array">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="AJAX">
+            <plugin id="AJAX" />
+        </object-type>
+        <object-type name="Sprite">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="Text">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Score">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TiledBackground2">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground3">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Flash">
+                    <behavior id="Flash" />
+                </behavior-type>
+                <behavior-type name="Fade">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground4">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Fade">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground5">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Fade">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground6">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Fade">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="Sprite2">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground7">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="FinalTime">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite3">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="2.4876" hotspotY="-0.912844">
+                        <collision-poly>
+                            <point x="0.560606" y="0.0248447" />
+                            <point x="0.833333" y="0.273292" />
+                            <point x="0.947658" y="0.39441" />
+                            <point x="0.977961" y="0.841615" />
+                            <point x="0.560606" y="0.916149" />
+                            <point x="0.112948" y="0.913043" />
+                            <point x="0.119835" y="0.39441" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.517045" hotspotY="0.446602">
+                        <collision-poly>
+                            <point x="0.0915953" y="0.0394613" />
+                            <point x="0.949205" y="0.012961" />
+                            <point x="0.985803" y="0.446602" />
+                            <point x="0.958355" y="0.91638" />
+                            <point x="0.516741" y="0.91638" />
+                            <point x="0.0885455" y="0.865788" />
+                            <point x="0.0824458" y="0.446602" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.638333" y="0.5" />
+                            <point x="0.62" y="0.592857" />
+                            <point x="0.5" y="0.975" />
+                            <point x="0.23" y="0.753571" />
+                            <point x="0.133333" y="0.5" />
+                            <point x="0.103333" y="0.110714" />
+                            <point x="0.5" y="0.119643" />
+                            <point x="0.91" y="0.0964286" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HelpBackgrd">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Playbutton">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.122085" y="0.243836" />
+                            <point x="0.877915" y="0.243836" />
+                            <point x="0.925926" y="0.49863" />
+                            <point x="0.921811" y="0.843836" />
+                            <point x="0.499314" y="0.882192" />
+                            <point x="0.0932785" y="0.813699" />
+                            <point x="0.0699589" y="0.49863" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Keyboard">
+            <plugin id="Keyboard" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder expanded="1">
+        <layout>LoadScreen.xml</layout>
+        <layout>Menu.xml</layout>
+        <layout>Game.xml</layout>
+        <layout>Help.xml</layout>
+        <layout>LoginCreateAccount.xml</layout>
+    </layout-folder>
+    <event-folder expanded="1">
+        <event-sheet>MenuEvents.xml</event-sheet>
+        <event-sheet>HelpEvents.xml</event-sheet>
+        <event-sheet>GameEvents.xml</event-sheet>
+        <event-sheet>LoginEvents.xml</event-sheet>
+        <event-sheet>LoadEvents.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="WebStorage" />
+        <global-instance type="Touch">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Browser" />
+        <global-instance type="Audio">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+            </properties>
+        </global-instance>
+        <global-instance type="CocoonJSAds" />
+        <global-instance type="AJAX" />
+        <global-instance type="Mouse" />
+        <global-instance type="Keyboard" />
+    </global-instances>
+    <sounds-folder expanded="1" />
+    <music-folder expanded="1" />
+    <files-folder expanded="1">
+        <file name="dict.xml" />
+    </files-folder>
+</c2project>

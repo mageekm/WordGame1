@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>LoadEvents</name>
+    <events>
+        <variable constant="0" name="xmlCount" static="0" type="number">0</variable>
+        <event-block>
+            <conditions>
+                <condition id="-1" name="Every tick" type="System" />
+            </conditions>
+            <actions>
+                <action id="-5" name="Set width" type="TiledBackground">
+                    <param id="0" name="Width">clamp(0, ((((xmlCount/totalWords)+loadingprogress)/2) * 600), 600)</param>
+                </action>
+                <action id="0" name="Set text" type="Text">
+                    <param id="0" name="Text">xmlCount</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-2" name="On start of layout" type="System" />
+            </conditions>
+            <actions>
+                <action id="1" name="Request project file" type="AJAX">
+                    <param id="0" name="Tag">&quot;dict&quot;</param>
+                    <param id="1" name="File">dict.xml</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="0" name="On completed" type="AJAX">
+                    <param id="0" name="Tag">&quot;dict&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Load" type="XML">
+                    <param id="0" name="XML">AJAX.LastData</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="0" name="For each node" type="XML">
+                            <param id="0" name="XPath">&quot;/root/item&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set at XYZ" type="Array">
+                            <param id="0" name="X">xmlCount</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Z">0</param>
+                            <param id="3" name="Value">XML.StringValue(&quot;Word/text()&quot;)</param>
+                        </action>
+                        <action id="4" name="Set at XYZ" type="Array">
+                            <param id="0" name="X">xmlCount</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Z">0</param>
+                            <param id="3" name="Value">XML.StringValue(&quot;Definition/text()&quot;)</param>
+                        </action>
+                        <action id="-10" name="Add to" type="System">
+                            <param id="0" name="Variable">xmlCount</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="-14" name="Compare variable" type="System">
+                    <param id="0" name="Variable">xmlCount</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">totalWords</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" type="System">
+                    <param id="0" name="Layout">Menu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

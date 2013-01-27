@@ -72,62 +72,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>163</x>
-                        <y>247</y>
+                        <x>358</x>
+                        <y>286</y>
                         <z>0</z>
-                        <width>67.298614502</width>
-                        <height>67.298622131</height>
+                        <width>213.939544678</width>
+                        <height>90.866798401</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.501193345</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="HelpButton">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>163</x>
-                        <y>388</y>
-                        <z>0</z>
-                        <width>68.459587097</width>
-                        <height>68.459587097</height>
-                        <depth>0</depth>
-                        <hotspotX>0.501312315</hotspotX>
-                        <hotspotY>0.501326263</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="GotoLoginText">
-                    <properties>
-                        <text>Login or Create Account</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-24,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>296</x>
-                        <y>385</y>
-                        <z>0</z>
-                        <width>267</width>
-                        <height>32</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.120943956</hotspotX>
+                        <hotspotY>-0.932203412</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -136,6 +88,15 @@
             <effects />
         </layer>
     </layers>
-    <nonworld-instances />
+    <nonworld-instances>
+        <instance type="XML" />
+        <instance type="Array">
+            <properties>
+                <width>5014</width>
+                <height>4</height>
+                <depth>1</depth>
+            </properties>
+        </instance>
+    </nonworld-instances>
     <effects />
 </c2layout>
