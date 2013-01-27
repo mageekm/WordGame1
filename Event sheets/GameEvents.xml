@@ -430,6 +430,9 @@
                             <param id="0" name="Variable">score</param>
                             <param id="1" name="Value">currentGuess</param>
                         </action>
+                        <action behavior="Bullet" id="0" name="Set speed" type="Sprite5">
+                            <param id="0" name="Speed">100</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>

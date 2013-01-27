@@ -9,3 +9,4 @@ nb-configuration.xml
 *.backup*
 Thumbs.db
 *.capx
+*.uistate.xml
