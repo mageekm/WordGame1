@@ -10,3 +10,4 @@ nb-configuration.xml
 Thumbs.db
 *.capx
 *.uistate.xml
+GameEvents.uistate.xml
