@@ -335,8 +335,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>301.728607178</x>
-                        <y>366.146759033</y>
+                        <x>302</x>
+                        <y>322</y>
                         <z>0</z>
                         <width>57.338512421</width>
                         <height>74.127059937</height>
@@ -359,8 +359,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>301.02633667</x>
-                        <y>366.60055542</y>
+                        <x>302</x>
+                        <y>303</y>
                         <z>0</z>
                         <width>58.244415283</width>
                         <height>50.45306778</height>
@@ -383,8 +383,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>301.17388916</x>
-                        <y>366.477630615</y>
+                        <x>302</x>
+                        <y>295</y>
                         <z>0</z>
                         <width>58.272018433</width>
                         <height>39.193244934</height>
@@ -425,8 +425,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>104.201416016</x>
-                        <y>369.751922607</y>
+                        <x>202</x>
+                        <y>347</y>
                         <z>0</z>
                         <width>3.127464294</width>
                         <height>108.240531921</height>
@@ -730,8 +730,8 @@
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
                         <line-height>0</line-height>
@@ -739,11 +739,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>520</x>
-                        <y>409</y>
+                        <x>527</x>
+                        <y>401</y>
                         <z>0</z>
-                        <width>60</width>
-                        <height>30</height>
+                        <width>38</width>
+                        <height>34</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
