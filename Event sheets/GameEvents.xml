@@ -40,10 +40,6 @@
                     <param id="0" name="Visibility">1</param>
                 </action>
                 <action id="-12" name="Set group active" type="System">
-                    <param id="0" name="Group name">&quot;MoveCrow&quot;</param>
-                    <param id="1" name="State">0</param>
-                </action>
-                <action id="-12" name="Set group active" type="System">
                     <param id="0" name="Group name">&quot;EndPlay&quot;</param>
                     <param id="1" name="State">0</param>
                 </action>
@@ -175,10 +171,13 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block>
+        <event-block any="1">
             <conditions>
                 <condition id="3" name="On touched object" type="Touch">
                     <param id="0" name="Object">Word1</param>
+                </condition>
+                <condition id="0" name="On key pressed" type="Keyboard">
+                    <param id="0" name="Key">97 (Num 1)</param>
                 </condition>
             </conditions>
             <actions />
@@ -192,16 +191,9 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" type="System">
-                            <param id="0" name="Variable">answerNumber</param>
-                            <param id="1" name="Value">int(random(4))</param>
-                        </action>
-                        <action id="-10" name="Add to" type="System">
-                            <param id="0" name="Variable">score</param>
-                            <param id="1" name="Value">currentGuess</param>
-                        </action>
-                        <action id="-2" name="Go to layout" type="System">
-                            <param id="0" name="Layout">Game</param>
+                        <action id="-12" name="Set group active" type="System">
+                            <param id="0" name="Group name">&quot;MoveCrow&quot;</param>
+                            <param id="1" name="State">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -241,16 +233,9 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" type="System">
-                            <param id="0" name="Variable">answerNumber</param>
-                            <param id="1" name="Value">int(random(4))</param>
-                        </action>
-                        <action id="-10" name="Add to" type="System">
-                            <param id="0" name="Variable">score</param>
-                            <param id="1" name="Value">currentGuess</param>
-                        </action>
-                        <action id="-2" name="Go to layout" type="System">
-                            <param id="0" name="Layout">Game</param>
+                        <action id="-12" name="Set group active" type="System">
+                            <param id="0" name="Group name">&quot;MoveCrow&quot;</param>
+                            <param id="1" name="State">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -290,16 +275,9 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" type="System">
-                            <param id="0" name="Variable">answerNumber</param>
-                            <param id="1" name="Value">int(random(4))</param>
-                        </action>
-                        <action id="-10" name="Add to" type="System">
-                            <param id="0" name="Variable">score</param>
-                            <param id="1" name="Value">currentGuess</param>
-                        </action>
-                        <action id="-2" name="Go to layout" type="System">
-                            <param id="0" name="Layout">Game</param>
+                        <action id="-12" name="Set group active" type="System">
+                            <param id="0" name="Group name">&quot;MoveCrow&quot;</param>
+                            <param id="1" name="State">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -339,16 +317,9 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" type="System">
-                            <param id="0" name="Variable">answerNumber</param>
-                            <param id="1" name="Value">int(random(4))</param>
-                        </action>
-                        <action id="-10" name="Add to" type="System">
-                            <param id="0" name="Variable">score</param>
-                            <param id="1" name="Value">currentGuess</param>
-                        </action>
-                        <action id="-2" name="Go to layout" type="System">
-                            <param id="0" name="Layout">Game</param>
+                        <action id="-12" name="Set group active" type="System">
+                            <param id="0" name="Group name">&quot;MoveCrow&quot;</param>
+                            <param id="1" name="State">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -450,10 +421,35 @@
                             <param id="0" name="Group name">&quot;MoveCrow&quot;</param>
                         </condition>
                     </conditions>
-                    <actions />
+                    <actions>
+                        <action id="-9" name="Set value" type="System">
+                            <param id="0" name="Variable">answerNumber</param>
+                            <param id="1" name="Value">int(random(4))</param>
+                        </action>
+                        <action id="-10" name="Add to" type="System">
+                            <param id="0" name="Variable">score</param>
+                            <param id="1" name="Value">currentGuess</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" inactive="1" title="EndPlay" />
+        <event-group description="" inactive="1" title="EndPlay">
+            <sub-events>
+                <event-block>
+                    <conditions>
+                        <condition id="-15" name="Is group active" type="System">
+                            <param id="0" name="Group name">&quot;MoveCrow&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Set group active" type="System">
+                            <param id="0" name="Group name">&quot;MoveCrow&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>
