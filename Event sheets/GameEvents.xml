@@ -552,7 +552,12 @@
                             <param id="0" name="Object">Sprite5</param>
                         </condition>
                     </conditions>
-                    <actions />
+                    <actions>
+                        <action behavior="Pin" id="0" name="Pin to object" type="Sprite9">
+                            <param id="0" name="Pin to">Sprite5</param>
+                            <param id="1" name="Mode">0</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-group>
