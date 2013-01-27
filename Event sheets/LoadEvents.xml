@@ -51,13 +51,13 @@
                             <param id="0" name="X">xmlCount</param>
                             <param id="1" name="Y">0</param>
                             <param id="2" name="Z">0</param>
-                            <param id="3" name="Value">XML.StringValue(&quot;Word/text()&quot;)</param>
+                            <param id="3" name="Value">XML.StringValue(&quot;word/text()&quot;)</param>
                         </action>
                         <action id="4" name="Set at XYZ" type="Array">
                             <param id="0" name="X">xmlCount</param>
                             <param id="1" name="Y">1</param>
                             <param id="2" name="Z">0</param>
-                            <param id="3" name="Value">XML.StringValue(&quot;Definition/text()&quot;)</param>
+                            <param id="3" name="Value">XML.StringValue(&quot;definition/text()&quot;)</param>
                         </action>
                         <action id="-10" name="Add to" type="System">
                             <param id="0" name="Variable">xmlCount</param>
