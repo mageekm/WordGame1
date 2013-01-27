@@ -27,6 +27,7 @@
         <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="wrap" version="1">Wrap</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -302,6 +303,9 @@
                 <behavior-type name="Bullet">
                     <behavior id="Bullet" />
                 </behavior-type>
+                <behavior-type name="Wrap">
+                    <behavior id="wrap" />
+                </behavior-type>
             </behaviors>
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
@@ -482,6 +486,16 @@
                             <point x="0.115118" y="0.498567" />
                         </collision-poly>
                     </frame>
+				 </animation>
+            </animation-folder>
+        </object-type>
+
+        <object-type name="CrowPositioner">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+
                 </animation>
             </animation-folder>
         </object-type>
