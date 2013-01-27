@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>MenuEvents</name>
     <events>
-        <variable constant="0" name="totalWords" static="0" type="number">5013</variable>
+        <variable constant="0" name="totalWords" static="0" type="number">2443</variable>
         <variable constant="0" name="randomNumber" static="0" type="number">0</variable>
         <variable constant="0" name="answerNumber" static="0" type="number">0</variable>
         <event-block>
