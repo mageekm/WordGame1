@@ -13,6 +13,13 @@
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
+        <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="CJSAds" version="1">CocoonJS</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="XML" version="1">XML</plugin>
         <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
         <plugin author="Scirra" id="Arr" version="1">Array</plugin>
@@ -27,6 +34,7 @@
         <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -450,7 +458,24 @@
             </animation-folder>
         </object-type>
     </object-folder>
-    <families />
+    <families>
+        <family name="WordsImg" plugin-id="TiledBg">
+            <members>
+                <member>TiledBackground3</member>
+                <member>TiledBackground4</member>
+                <member>TiledBackground5</member>
+                <member>TiledBackground6</member>
+            </members>
+        </family>
+        <family name="WordsTxt" plugin-id="Text">
+            <members>
+                <member>Word1</member>
+                <member>Word2</member>
+                <member>Word3</member>
+                <member>Word4</member>
+            </members>
+        </family>
+    </families>
     <layout-folder expanded="1">
         <layout>LoadScreen.xml</layout>
         <layout>Menu.xml</layout>
