@@ -23,7 +23,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Request URL" type="AjaxHelper">
-                    <param id="0" name="Tag">&quot;authenticate&quot;</param>
+                    <param id="0" name="Tag">&quot;&quot;</param>
                     <param id="1" name="URL">&quot;http://qduku/index.php?action=authenticate&amp;username=nathan&amp;password=hi&quot;</param>
                 </action>
             </actions>
@@ -31,12 +31,24 @@
         <event-block>
             <conditions>
                 <condition id="0" name="On completed" type="AjaxHelper">
-                    <param id="0" name="Tag">&quot;authenticate&quot;</param>
+                    <param id="0" name="Tag">&quot;&quot;</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="0" name="Alert" type="Browser">
                     <param id="0" name="Message">AjaxHelper.LastData</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block>
+            <conditions>
+                <condition id="1" name="On error" type="AjaxHelper">
+                    <param id="0" name="Tag">&quot;&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Alert" type="Browser">
+                    <param id="0" name="Message">&quot;There was a problem logging in. Please check your internet connection and try again.&quot;</param>
                 </action>
             </actions>
         </event-block>
