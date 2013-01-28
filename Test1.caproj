@@ -23,10 +23,10 @@
         <plugin author="Scirra" id="XML" version="1">XML</plugin>
     </used-plugins>
     <used-behaviors>
-        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
-        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
-        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
         <behavior author="Scirra" id="wrap" version="1">Wrap</behavior>
     </used-behaviors>
     <used-effects />
@@ -373,16 +373,16 @@
             </behaviors>
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" speed="5">
-                    <frame duration="1" hotspotX="0.498597" hotspotY="0.5">
+                    <frame duration="1" hotspotX="0.498264" hotspotY="0.5">
                         <collision-poly>
-                            <point x="0.0991581" y="0.0759768" />
-                            <point x="0.498597" y="0.00144718" />
-                            <point x="0.900842" y="0.0738061" />
-                            <point x="0.999065" y="0.5" />
-                            <point x="0.900842" y="0.926194" />
-                            <point x="0.498597" y="0.998553" />
-                            <point x="0.100094" y="0.9233" />
-                            <point x="0.000935454" y="0.5" />
+                            <point x="0.266493" y="0.208844" />
+                            <point x="0.5" y="0.186395" />
+                            <point x="0.733507" y="0.208844" />
+                            <point x="0.96441" y="0.5" />
+                            <point x="0.873264" y="0.90068" />
+                            <point x="0.5" y="0.968708" />
+                            <point x="0.130208" y="0.897959" />
+                            <point x="0.0381944" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>

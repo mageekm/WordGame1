@@ -56,6 +56,9 @@
                 <action id="-15" name="Set visible" type="Sprite9">
                     <param id="0" name="Visibility">0</param>
                 </action>
+                <action id="-15" name="Set visible" type="Caption">
+                    <param id="0" name="Visibility">1</param>
+                </action>
             </actions>
             <sub-events>
                 <event-block>
@@ -211,6 +214,12 @@
                         <action behavior="Bullet" id="0" name="Set speed" type="Sprite5">
                             <param id="0" name="Speed">100</param>
                         </action>
+                        <action id="-15" name="Set visible" type="Caption">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" type="DefinitionText">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block>
@@ -258,6 +267,12 @@
                         </action>
                         <action behavior="Bullet" id="0" name="Set speed" type="Sprite5">
                             <param id="0" name="Speed">100</param>
+                        </action>
+                        <action id="-15" name="Set visible" type="Caption">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" type="DefinitionText">
+                            <param id="0" name="Visibility">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -307,6 +322,12 @@
                         <action behavior="Bullet" id="0" name="Set speed" type="Sprite5">
                             <param id="0" name="Speed">100</param>
                         </action>
+                        <action id="-15" name="Set visible" type="Caption">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" type="DefinitionText">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block>
@@ -354,6 +375,12 @@
                         </action>
                         <action behavior="Bullet" id="0" name="Set speed" type="Sprite5">
                             <param id="0" name="Speed">100</param>
+                        </action>
+                        <action id="-15" name="Set visible" type="Caption">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" type="DefinitionText">
+                            <param id="0" name="Visibility">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -597,8 +624,14 @@
                         <action id="-15" name="Set visible" type="WordsTxt">
                             <param id="0" name="Visibility">0</param>
                         </action>
+                        <action id="-15" name="Set visible" type="Caption">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
                         <action id="0" name="Set text" type="DefinitionText">
                             <param id="0" name="Text">&quot;You Did it!  Your time is: &quot; &amp; currentTime</param>
+                        </action>
+                        <action id="-15" name="Set visible" type="DefinitionText">
+                            <param id="0" name="Visibility">1</param>
                         </action>
                         <action id="-15" name="Set visible" type="Sprite10">
                             <param id="0" name="Visibility">0</param>
